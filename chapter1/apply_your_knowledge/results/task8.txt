@@ -1,6 +1,7 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Add a paragraph about planning a website and a summary of chapter 1.
-Reason: None
-Timestamp: 2025-08-25 20:39:50.108678
+Reason: Assertion failed: False is not true : There are not enough paragraph elements, expected at least 4 found 0
+Error : AssertionError - False is not true : There are not enough paragraph elements, expected at least 4 found 0
+Timestamp: 2025-08-25 20:41:08.824693

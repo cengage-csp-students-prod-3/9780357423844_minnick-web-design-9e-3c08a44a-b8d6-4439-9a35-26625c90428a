@@ -2,16 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: Set the text for the `title` element.
-Reason: Assertion failed: 'CH 1 Apply your Knowledge' != 'CH 1 Apply Your Knowledge'
-- CH 1 Apply your Knowledge
-?            ^
-+ CH 1 Apply Your Knowledge
-?            ^
-
-Error : AssertionError - 'CH 1 Apply your Knowledge' != 'CH 1 Apply Your Knowledge'
-- CH 1 Apply your Knowledge
-?            ^
-+ CH 1 Apply Your Knowledge
-?            ^
-
-Timestamp: 2025-08-25 20:39:50.105748
+Reason: AttributeError occurred: 'NoneType' object has no attribute 'text'
+Error : AttributeError - 'NoneType' object has no attribute 'text'
+Timestamp: 2025-08-25 20:41:08.823195

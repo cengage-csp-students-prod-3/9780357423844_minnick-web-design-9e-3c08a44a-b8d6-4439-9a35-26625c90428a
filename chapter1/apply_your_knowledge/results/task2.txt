@@ -1,6 +1,7 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Add the `lang` attribute.
-Reason: None
-Timestamp: 2025-08-25 20:39:50.104440
+Reason: TypeError occurred: 'NoneType' object is not subscriptable
+Error : TypeError - 'NoneType' object is not subscriptable
+Timestamp: 2025-08-25 20:41:08.822531
