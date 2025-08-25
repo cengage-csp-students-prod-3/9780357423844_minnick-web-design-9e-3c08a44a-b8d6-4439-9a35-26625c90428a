@@ -3,35 +3,36 @@ Status: PASSED!
 Check: 1
 Test: Fix the issue with`DOCTYPE` tag.
 Reason: None
-Timestamp: 2025-08-25 19:59:12.410163
+Timestamp: 2025-08-25 20:24:18.023514
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Add the required HTML elements to the *index.html* file.
-Reason: None
-Timestamp: 2025-08-25 19:59:12.410765
+Reason: Assertion failed: 2 != 1
+Error : AssertionError - 2 != 1
+Timestamp: 2025-08-25 20:24:18.024490
 
 Status: PASSED!
 Check: 3
 Test: Add the required HTML elements to the *index.html* file.
 Reason: None
-Timestamp: 2025-08-25 19:59:12.411161
+Timestamp: 2025-08-25 20:24:18.025305
 
 Status: PASSED!
 Check: 4
 Test: Add the required HTML elements to the *index.html* file.
 Reason: None
-Timestamp: 2025-08-25 19:59:12.411504
+Timestamp: 2025-08-25 20:24:18.025870
 
 Status: PASSED!
 Check: 5
 Test: Add the required HTML elements to the *index.html* file.
 Reason: None
-Timestamp: 2025-08-25 19:59:12.411883
+Timestamp: 2025-08-25 20:24:18.026438
 
 Status: FAILED!
 Check: 6
 Test: Add the required HTML elements to the *index.html* file.
 Reason: Assertion failed: 0 != 1
 Error : AssertionError - 0 != 1
-Timestamp: 2025-08-25 19:59:12.412245
+Timestamp: 2025-08-25 20:24:18.026960
