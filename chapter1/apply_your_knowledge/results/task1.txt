@@ -4,39 +4,39 @@ Check: 1
 Test: Fix the issue with`DOCTYPE` tag.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877175
+Timestamp: 2025-08-25 20:53:18.993743
 
 Status: FAILED!
 Check: 2
 Test: Add the required HTML elements to the *index.html* file.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877441
+Timestamp: 2025-08-25 20:53:18.994076
 
 Status: FAILED!
 Check: 3
 Test: Add the required HTML elements to the *index.html* file.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877588
+Timestamp: 2025-08-25 20:53:18.994265
 
 Status: FAILED!
 Check: 4
 Test: Add the required HTML elements to the *index.html* file.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877711
+Timestamp: 2025-08-25 20:53:18.994415
 
 Status: FAILED!
 Check: 5
 Test: Add the required HTML elements to the *index.html* file.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877827
+Timestamp: 2025-08-25 20:53:18.994555
 
 Status: FAILED!
 Check: 6
 Test: Add the required HTML elements to the *index.html* file.
 Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
 Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-25 20:50:47.877943
+Timestamp: 2025-08-25 20:53:18.994716
