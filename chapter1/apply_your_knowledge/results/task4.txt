@@ -2,6 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: Set the text for the `title` element.
-Reason: AttributeError occurred: 'NoneType' object has no attribute 'text'
-Error : AttributeError - 'NoneType' object has no attribute 'text'
-Timestamp: 2025-08-25 20:41:08.823195
+Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
+Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
+Timestamp: 2025-08-25 20:48:52.026129
