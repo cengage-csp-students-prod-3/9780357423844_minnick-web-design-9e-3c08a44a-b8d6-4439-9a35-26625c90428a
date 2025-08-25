@@ -1,0 +1,13 @@
+
+Status: FAILED!
+Check: 1
+Test: Set the text for the `title` element.
+Reason: Assertion failed: 'My First WebPage' != 'CH 1 Apply Your Knowledge'
+- My First WebPage
++ CH 1 Apply Your Knowledge
+
+Error : AssertionError - 'My First WebPage' != 'CH 1 Apply Your Knowledge'
+- My First WebPage
++ CH 1 Apply Your Knowledge
+
+Timestamp: 2025-08-25 19:57:23.573859
