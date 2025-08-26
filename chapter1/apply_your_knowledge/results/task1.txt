@@ -1,42 +1,36 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Fix the issue with`DOCTYPE` tag.
-Reason: Assertion failed: 
-Error : AssertionError - 
-Timestamp: 2025-08-26 18:41:54.685457
+Reason: None
+Timestamp: 2025-08-26 23:04:52.462812
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add the required HTML elements to the *index.html* file.
-Reason: Assertion failed: 0 != 1
-Error : AssertionError - 0 != 1
-Timestamp: 2025-08-26 18:41:54.685891
+Reason: None
+Timestamp: 2025-08-26 23:04:52.463900
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Add the required HTML elements to the *index.html* file.
-Reason: Assertion failed: 0 != 1
-Error : AssertionError - 0 != 1
-Timestamp: 2025-08-26 18:41:54.686136
+Reason: None
+Timestamp: 2025-08-26 23:04:52.464813
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Add the required HTML elements to the *index.html* file.
-Reason: Assertion failed: 0 != 1
-Error : AssertionError - 0 != 1
-Timestamp: 2025-08-26 18:41:54.686326
+Reason: None
+Timestamp: 2025-08-26 23:04:52.465593
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Add the required HTML elements to the *index.html* file.
-Reason: Assertion failed: 0 != 1
-Error : AssertionError - 0 != 1
-Timestamp: 2025-08-26 18:41:54.686504
+Reason: None
+Timestamp: 2025-08-26 23:04:52.466486
 
-Status: FAILED!
+Status: PASSED!
 Check: 6
 Test: Add the required HTML elements to the *index.html* file.
-Reason: Assertion failed: 0 != 1
-Error : AssertionError - 0 != 1
-Timestamp: 2025-08-26 18:41:54.686714
+Reason: None
+Timestamp: 2025-08-26 23:04:52.467237
