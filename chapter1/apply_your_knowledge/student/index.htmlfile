@@ -2,28 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>CH 1 Apply Your Knowledge</title>
+    <title>My First Webpage</title>
 </head>
 <body>
 
-<p>Chapter 1, Apply Your Knowledge</p>
-
-<p>Pratik Pathak — 08/26/2025</p>
-
-<hr>
-
-<p>
-    Planning a website is an important first step in web development. It involves 
-    identifying the purpose of the site, understanding the target audience, 
-    organizing content, and designing a layout that provides a positive user experience.
-</p>
-
-<p>
-    In Chapter 1, I learned the basics of creating a webpage, including 
-    structuring HTML with essential elements like <code>html</code>, 
-    <code>head</code>, <code>title</code>, <code>meta</code>, and <code>body</code>. 
-    This foundation is crucial for building and planning more advanced websites.
-</p>
+<p>Welcome to my webpage!</p>
 
 </body>
 </html>
