@@ -2,6 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: Add a paragraph element with your name and today's date.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:07:38.829494
+Reason: Assertion failed: False is not true : Unable to find name and date in a paragraph element in the body.
+Error : AssertionError - False is not true : Unable to find name and date in a paragraph element in the body.
+Timestamp: 2025-08-26 18:41:54.688065
