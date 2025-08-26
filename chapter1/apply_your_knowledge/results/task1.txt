@@ -2,41 +2,41 @@
 Status: FAILED!
 Check: 1
 Test: Fix the issue with`DOCTYPE` tag.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783154
+Reason: Assertion failed: 
+Error : AssertionError - 
+Timestamp: 2025-08-26 18:34:25.908300
 
 Status: FAILED!
 Check: 2
 Test: Add the required HTML elements to the *index.html* file.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783385
+Reason: Assertion failed: 0 != 1
+Error : AssertionError - 0 != 1
+Timestamp: 2025-08-26 18:34:25.908791
 
 Status: FAILED!
 Check: 3
 Test: Add the required HTML elements to the *index.html* file.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783522
+Reason: Assertion failed: 0 != 1
+Error : AssertionError - 0 != 1
+Timestamp: 2025-08-26 18:34:25.909075
 
 Status: FAILED!
 Check: 4
 Test: Add the required HTML elements to the *index.html* file.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783641
+Reason: Assertion failed: 0 != 1
+Error : AssertionError - 0 != 1
+Timestamp: 2025-08-26 18:34:25.909305
 
 Status: FAILED!
 Check: 5
 Test: Add the required HTML elements to the *index.html* file.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783756
+Reason: Assertion failed: 0 != 1
+Error : AssertionError - 0 != 1
+Timestamp: 2025-08-26 18:34:25.909730
 
 Status: FAILED!
 Check: 6
 Test: Add the required HTML elements to the *index.html* file.
-Reason: FileNotFoundError occurred: [Errno 2] No such file or directory: 'index.html'
-Error : FileNotFoundError - [Errno 2] No such file or directory: 'index.html'
-Timestamp: 2025-08-26 18:23:27.783869
+Reason: Assertion failed: 0 != 1
+Error : AssertionError - 0 != 1
+Timestamp: 2025-08-26 18:34:25.909989
