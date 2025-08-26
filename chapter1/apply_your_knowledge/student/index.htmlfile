@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CH 1 Apply Your Knowledge</title>
+</head>
+<body>
+    <!-- Task 1: Create a heading with the text Chapter 1, Apply Your Knowledge -->
+    <h1>Chapter 1, Apply Your Knowledge</h1>
+
+    <!-- Task 2: Add a subheading with your name and today's date -->
+    <h2>Your Name, Today’s Date</h2>
+
+    <!-- Task 3: Add a paragraph about your text editor -->
+    <p>I am using Notepad++ as my text editor to complete this assignment.</p>
+
+    <!-- Task 4: Add a paragraph that summarizes Chapter 1 -->
+    <p>
+        Chapter 1 provides an overview of webpage design and all of the design elements that must be taken into consideration 
+        when creating a webpage. Before you begin coding a website, you must first create a wireframe and site map. 
+        Next, you need to consider several design elements, such as graphics, navigation, and color. 
+        Finally, you must also plan for accessibility.
+    </p>
+
+    <!-- Task 5: Add another paragraph about what you learned -->
+    <p>
+        After reading Chapter 1, I now understand how to download and use a text editor to create an HTML page. 
+        I know which HTML elements are required to create a basic HTML webpage.
+    </p>
+
+    <!-- Task 6: Insert a horizontal rule -->
+    <hr>
+
+    <!-- Task 7: Insert a line break in a sentence -->
+    <p>
+        I am learning HTML basics.<br>
+        This is the first webpage I have created.
+    </p>
+
+    <!-- Task 8: Add a comment in the code (this comment will not show on the webpage) -->
+    <!-- This webpage was created for Chapter 1 Apply Your Knowledge assignment -->
+</body>
+</html>
