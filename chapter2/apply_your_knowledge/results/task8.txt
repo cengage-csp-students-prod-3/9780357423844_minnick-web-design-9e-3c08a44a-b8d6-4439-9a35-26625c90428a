@@ -3,34 +3,16 @@ Status: PASSED!
 Check: 1
 Test: Nest the paragraph element within the nav element
 Reason: None
-Timestamp: 2025-09-01 15:49:13.823189
+Timestamp: 2025-09-01 16:00:25.286608
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Check the text of the paragraph element
-Reason: Assertion failed: Expected 6 non-breaking spaces in the p element text, 
-<p>Home &nbsp; &#9632; &nbsp;
-Link 1 &nbsp; &#9632; &nbsp;
-Link 2 &nbsp; &#9632; &nbsp;
-Link 3 </p> 
-Error : AssertionError - Expected 6 non-breaking spaces in the p element text, 
-<p>Home &nbsp; &#9632; &nbsp;
-Link 1 &nbsp; &#9632; &nbsp;
-Link 2 &nbsp; &#9632; &nbsp;
-Link 3 </p> 
-Timestamp: 2025-09-01 15:49:13.823856
+Reason: None
+Timestamp: 2025-09-01 16:00:25.287352
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Check the HTML content of the paragraph element
-Reason: Assertion failed: Expected 3 symbols in the p element text (&#9632;), 
-<p>Home &nbsp; &#9632; &nbsp;
-Link 1 &nbsp; &#9632; &nbsp;
-Link 2 &nbsp; &#9632; &nbsp;
-Link 3 </p> 
-Error : AssertionError - Expected 3 symbols in the p element text (&#9632;), 
-<p>Home &nbsp; &#9632; &nbsp;
-Link 1 &nbsp; &#9632; &nbsp;
-Link 2 &nbsp; &#9632; &nbsp;
-Link 3 </p> 
-Timestamp: 2025-09-01 15:49:13.824570
+Reason: None
+Timestamp: 2025-09-01 16:00:25.288017

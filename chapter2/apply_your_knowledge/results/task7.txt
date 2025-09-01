@@ -3,11 +3,10 @@ Status: PASSED!
 Check: 1
 Test: Nest the heading element within the header element
 Reason: None
-Timestamp: 2025-09-01 15:49:12.641173
+Timestamp: 2025-09-01 16:00:23.987038
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Check the text of the heading element
-Reason: Assertion failed: Expected h1 element text is "My Template"
-Error : AssertionError - Expected h1 element text is "My Template"
-Timestamp: 2025-09-01 15:49:12.641847
+Reason: None
+Timestamp: 2025-09-01 16:00:23.987781
