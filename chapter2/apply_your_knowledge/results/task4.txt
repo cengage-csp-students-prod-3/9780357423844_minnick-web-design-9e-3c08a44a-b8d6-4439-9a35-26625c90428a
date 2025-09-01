@@ -4,4 +4,4 @@ Check: 1
 Test: Add the `charset` attribute to the `meta` tag and specify the character set as UTF-8
 Reason: Assertion failed: Expected charset attribute value is "utf-8"
 Error : AssertionError - Expected charset attribute value is "utf-8"
-Timestamp: 2025-09-01 16:18:40.689783
+Timestamp: 2025-09-01 16:25:59.063850
