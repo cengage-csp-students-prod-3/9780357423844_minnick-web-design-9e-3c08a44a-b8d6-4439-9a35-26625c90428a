@@ -4,10 +4,11 @@ Check: 1
 Test: Nest the first paragraph element within the footer element
 Reason: Assertion failed: Expected p element text is "Add contact information here"
 Error : AssertionError - Expected p element text is "Add contact information here"
-Timestamp: 2025-09-01 16:06:44.598576
+Timestamp: 2025-09-01 16:08:28.569679
 
-Status: PASSED!
+Status: FAILED!
 Check: 2
 Test: Nest the second paragraph element within the footer element
-Reason: None
-Timestamp: 2025-09-01 16:06:44.599451
+Reason: Assertion failed: Expected p element text is "© Copyright 2021. All Rights Reserved."
+Error : AssertionError - Expected p element text is "© Copyright 2021. All Rights Reserved."
+Timestamp: 2025-09-01 16:08:28.570517
