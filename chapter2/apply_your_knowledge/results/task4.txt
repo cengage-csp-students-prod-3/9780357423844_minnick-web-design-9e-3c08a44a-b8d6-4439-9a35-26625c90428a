@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Add the `charset` attribute to the `meta` tag and specify the character set as UTF-8
+Reason: Assertion failed: No charset attribute found
+Error : AssertionError - No charset attribute found
+Timestamp: 2025-09-01 15:49:09.024953

@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Add the text, My Template, to the title element
+Reason: Assertion failed: Expected title element text is "My Template"
+Error : AssertionError - Expected title element text is "My Template"
+Timestamp: 2025-09-01 15:49:10.263195
