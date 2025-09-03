@@ -1,0 +1,26 @@
+
+Status: PASSED!
+Check: 1
+Test: Update the comment with your name
+Reason: None
+Timestamp: 2025-09-03 17:23:04.138309
+
+Status: FAILED!
+Check: 1
+Test: Update the comment with the file name
+Reason: Assertion failed: Expected comment with "File Name: index.html" not found
+Error : AssertionError - Expected comment with "File Name: index.html" not found
+Timestamp: 2025-09-03 17:23:04.139123
+
+Status: PASSED!
+Check: 1
+Test: Update the comment with the current date
+Reason: None
+Timestamp: 2025-09-03 17:23:04.139967
+
+Status: FAILED!
+Check: 2
+Test: Add text to the title element
+Reason: Assertion failed: Expected title text is "CH 2 Extend Your Knowledge"
+Error : AssertionError - Expected title text is "CH 2 Extend Your Knowledge"
+Timestamp: 2025-09-03 17:23:04.140673
