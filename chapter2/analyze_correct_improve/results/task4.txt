@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Add two nonbreaking spaces after Home, Link 1, and Link 2 in the nav element
+Reason: Assertion failed: No p element found in nav
+Error : AssertionError - No p element found in nav
+Timestamp: 2025-09-05 22:17:20.831118
