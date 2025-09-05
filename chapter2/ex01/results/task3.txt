@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Add the `lang` attribute to the starting `html` tag and specify the language as **English** as follows: `<html lang="en">` 
+Reason: Assertion failed: The html element does not exist
+Error : AssertionError - The html element does not exist
+Timestamp: 2025-09-05 23:09:38.171274
