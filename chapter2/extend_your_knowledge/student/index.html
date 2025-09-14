@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Manipulation</title>
+</head>
+<body>
+    <div>This is a div element.</div>
+    <div>Another div element.</div>
+    <p>This is a paragraph element.</p>
+    <p>This is another paragraph element.</p>
+    <div>Main content area:</div>
+    <p>Paragraph 1 in the main content area.</p>
+    <p>Paragraph 2 in the main content area.</p>
+    <div>Navigation section:</div>
+    <p>Perceivable</p>
+    <p>Operable</p>
+    <p>Understandable</p>
+
+    <script>
+        // Locate all div elements and change them to appropriate HTML semantic elements.
+        const divElements = document.querySelectorAll('div');
+        divElements.forEach((div) => {
+            const newElement = document.createElement('section'); // You can replace 'section' with the appropriate semantic element
+            newElement.textContent = div.textContent;
+            div.replaceWith(newElement);
+        });
+
+        // Update the paragraph element on Line 15 to use an h1 element.
+        const paragraph15 = document.querySelector('p:nth-of-type(3)');
+        const h1Element = document.createElement('h1');
+        h1Element.textContent = paragraph15.textContent;
+        paragraph15.replaceWith(h1Element);
+
+        // In the main content area, wrap all paragraph elements within one article element
+        const mainContent = document.querySelector('div:contains("Main content area:")');
+        const paragraphsInMainContent = mainContent.querySelectorAll('p');
+        const articleElement = document.createElement('article');
+        paragraphsInMainContent.forEach((paragraph, index) => {
+            if (index === 0) {
+                const h2Element = document.createElement('h2');
+                h2Element.textContent = paragraph.textContent;
+                articleElement.appendChild(h2Element);
+            } else {
+                const pElement = document.createElement('p');
+                pElement.textContent = paragraph.textContent;
+                articleElement.appendChild(pElement);
+            }
+        });
+        mainContent.appendChild(articleElement);
+
+        // Add a black small square to the beginning of each sentence within the article element.
+        const sentencesInArticle = articleElement.querySelectorAll('p');
+        sentencesInArticle.forEach((sentence) => {
+            sentence.innerHTML = '&#9642; ' + sentence.innerHTML;
+        });
+
+        // In the navigation section, add a nonbreaking space and a black circle after each word.
+        const navigationSection = document.querySelector('div:contains("Navigation section:")');
+        const navigationItems = navigationSection.querySelectorAll('p');
+        navigationItems.forEach((item) => {
+            const itemText = item.textContent;
+            const modifiedText = itemText.replace(/\b(\w+)\b/g, '&nbsp;&#9679;&nbsp;$1');
+            item.innerHTML = modifiedText;
+        });
+    </script>
+</body>
+</html>
