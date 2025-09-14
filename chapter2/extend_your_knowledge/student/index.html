@@ -17,23 +17,36 @@
     <p>Understandable</p>
 
     <script>
-        // Locate all div elements and change them to appropriate HTML semantic elements.
+        // Locate all div elements and change them to semantic elements
         const divElements = document.querySelectorAll('div');
         divElements.forEach((div) => {
-            const newElement = document.createElement('section'); // You can replace 'section' with the appropriate semantic element
+            let newElement;
+            if (div.textContent.includes("Main content area:")) {
+                newElement = document.createElement('main');
+            } else if (div.textContent.includes("Navigation section:")) {
+                newElement = document.createElement('nav');
+            } else {
+                newElement = document.createElement('section');
+            }
             newElement.textContent = div.textContent;
             div.replaceWith(newElement);
         });
 
-        // Update the paragraph element on Line 15 to use an h1 element.
+        // Update the 3rd paragraph element to use an h1
         const paragraph15 = document.querySelector('p:nth-of-type(3)');
         const h1Element = document.createElement('h1');
         h1Element.textContent = paragraph15.textContent;
         paragraph15.replaceWith(h1Element);
 
-        // In the main content area, wrap all paragraph elements within one article element
-        const mainContent = document.querySelector('div:contains("Main content area:")');
-        const paragraphsInMainContent = mainContent.querySelectorAll('p');
+        // Wrap all main content paragraphs inside one article
+        const mainContent = document.querySelector('main');
+        const paragraphsInMainContent = [];
+        let nextElem = mainContent.nextElementSibling;
+        while (nextElem && nextElem.tagName === "P") {
+            paragraphsInMainContent.push(nextElem);
+            nextElem = nextElem.nextElementSibling;
+        }
+
         const articleElement = document.createElement('article');
         paragraphsInMainContent.forEach((paragraph, index) => {
             if (index === 0) {
@@ -45,23 +58,22 @@
                 pElement.textContent = paragraph.textContent;
                 articleElement.appendChild(pElement);
             }
+            paragraph.remove(); // remove original p
         });
-        mainContent.appendChild(articleElement);
+        mainContent.insertAdjacentElement('afterend', articleElement);
 
-        // Add a black small square to the beginning of each sentence within the article element.
-        const sentencesInArticle = articleElement.querySelectorAll('p');
-        sentencesInArticle.forEach((sentence) => {
-            sentence.innerHTML = '&#9642; ' + sentence.innerHTML;
+        // Add a black small square before each sentence inside article
+        articleElement.querySelectorAll('p').forEach((p) => {
+            p.innerHTML = '&#9642; ' + p.innerHTML;
         });
 
-        // In the navigation section, add a nonbreaking space and a black circle after each word.
-        const navigationSection = document.querySelector('div:contains("Navigation section:")');
-        const navigationItems = navigationSection.querySelectorAll('p');
-        navigationItems.forEach((item) => {
-            const itemText = item.textContent;
-            const modifiedText = itemText.replace(/\b(\w+)\b/g, '&nbsp;&#9679;&nbsp;$1');
-            item.innerHTML = modifiedText;
-        });
+        // Add a nonbreaking space + black circle after each word in navigation section
+        const navigationSection = document.querySelector('nav');
+        let navElem = navigationSection.nextElementSibling;
+        while (navElem && navElem.tagName === "P") {
+            navElem.innerHTML = navElem.textContent.replace(/\b(\w+)\b/g, '$1&nbsp;&#9679;');
+            navElem = navElem.nextElementSibling;
+        }
     </script>
 </body>
 </html>
