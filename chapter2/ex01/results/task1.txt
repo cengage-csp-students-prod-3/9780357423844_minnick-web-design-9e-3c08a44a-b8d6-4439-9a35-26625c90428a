@@ -1,41 +1,37 @@
 
-Status: PASSED!
+Status: FAILED!
 Check: 1
 Test: Add the `DOCTYPE` to the *template.html* file
-Reason: None
-Timestamp: 2025-09-17 06:35:31.356191
+Reason: Assertion failed: 
+Error : AssertionError - 
+Timestamp: 2025-09-17 06:44:33.759531
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add the `html` tag to the *template.html* file
-Reason: Assertion failed: The html element does not exist
-Error : AssertionError - The html element does not exist
-Timestamp: 2025-09-17 06:35:31.357287
+Reason: None
+Timestamp: 2025-09-17 06:44:33.760604
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Add the `head` tag to the *template.html* file
-Reason: Assertion failed: The head element does not exist
-Error : AssertionError - The head element does not exist
-Timestamp: 2025-09-17 06:35:31.358275
+Reason: None
+Timestamp: 2025-09-17 06:44:33.761326
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Add the `title` tag to the *template.html* file
-Reason: Assertion failed: The title element does not exist
-Error : AssertionError - The title element does not exist
-Timestamp: 2025-09-17 06:35:31.359310
+Reason: None
+Timestamp: 2025-09-17 06:44:33.761981
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Add the `meta` tag to the *template.html* file
-Reason: Assertion failed: The meta element does not exist
-Error : AssertionError - The meta element does not exist
-Timestamp: 2025-09-17 06:35:31.360173
+Reason: None
+Timestamp: 2025-09-17 06:44:33.762768
 
-Status: FAILED!
+Status: PASSED!
 Check: 6
 Test: Add the `body` tag to the *template.html* file
-Reason: Assertion failed: The body element does not exist
-Error : AssertionError - The body element does not exist
-Timestamp: 2025-09-17 06:35:31.361034
+Reason: None
+Timestamp: 2025-09-17 06:44:33.763434
