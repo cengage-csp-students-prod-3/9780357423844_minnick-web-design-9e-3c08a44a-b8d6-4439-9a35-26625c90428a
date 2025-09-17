@@ -1,40 +1,51 @@
+<!-- 
+Name: YourFirstName YourLastName
+File: index.html
+Date: 09/15/2025
+-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HTML Manipulation</title>
+  <meta charset="UTF-8">
+  <title>CH 2 Extend Your Knowledge</title>
 </head>
 <body>
-    <div>This is a div element.</div>
-    <div>Another div element.</div>
-    <p>This is a paragraph element.</p>
-    <p>This is another paragraph element.</p>
-    <div>Main content area:</div>
-    <p>Paragraph 1 in the main content area.</p>
-    <p>Paragraph 2 in the main content area.</p>
-    <div>Navigation section:</div>
-    <p>Perceivable</p>
-    <p>Operable</p>
-    <p>Understandable</p>
+<header>
+  <h1>Accessibility Guidelines</h1>
+</header>
 
-    <script>
-        // Change the FIRST <p> into an <h2>
-        const firstParagraph = document.querySelector('p');
-        if (firstParagraph) {
-            const h2 = document.createElement('h2');
-            h2.textContent = firstParagraph.textContent;
-            firstParagraph.replaceWith(h2);
-        }
+<nav>
+  <a href="#">Perceivable</a>
+  <a href="#">Operable</a>
+  <a href="#">Understandable</a>
+  <a href="#">Robust</a>
+</nav>
 
-        // Wrap ALL remaining <p> elements inside a single <article>
-        const allParagraphs = document.querySelectorAll('p');
-        if (allParagraphs.length > 0) {
-            const article = document.createElement('article');
-            allParagraphs.forEach(p => {
-                article.appendChild(p.cloneNode(true));
-                p.remove();
-            });
-            document.body.appendChild(article);
-        }
-    </script>
-</body>
-</html>
+<main>
+  <!-- Content goes here -->
+</main>
+
+<footer>
+  Web Accessibility Guidelines. For more information visit w3.org
+</footer>
+<nav>
+  <a href="#">Perceivable</a>&nbsp;&#9679;&nbsp;
+  <a href="#">Operable</a>&nbsp;&#9679;&nbsp;
+  <a href="#">Understandable</a>&nbsp;&#9679;&nbsp;
+  <a href="#">Robust</a>
+</nav>
+<main>
+  <h2>Guidelines for Principle 1: Perceivable</h2>
+  <article>
+    <p>Guideline 1.1 provides an overview of text alternatives for non-text content, such as images, media, or controls.</p>
+    <p>Guideline 1.2 provides an overview of alternatives for time-based media, such as providing captions or an audio description.</p>
+    <p>Guideline 1.3 provides an overview for creating adaptable content, such as displaying content in a meaningful sequence.</p>
+    <p>Guideline 1.4 provides an overview of how to make web content easy to see and hear. This includes contrasting colors, text spacing, and text resizing.</p>
+  </article>
+</main>
+<article>
+  <p>&#9642; Guideline 1.1 provides an overview of text alternatives for non-text content, such as images, media, or controls.</p>
+  <p>&#9642; Guideline 1.2 provides an overview of alternatives for time-based media, such as providing captions or an audio description.</p>
+  <p>&#9642; Guideline 1.3 provides an overview for creating adaptable content, such as displaying content in a meaningful sequence.</p>
+  <p>&#9642; Guideline 1.4 provides an overview of how to make web content easy to see and hear. This includes contrasting colors, text spacing, and text resizing.</p>
+</article>
