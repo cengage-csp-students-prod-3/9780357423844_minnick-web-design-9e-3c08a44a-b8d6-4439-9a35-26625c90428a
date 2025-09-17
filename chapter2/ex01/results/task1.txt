@@ -4,35 +4,35 @@ Check: 1
 Test: Add the `DOCTYPE` to the *template.html* file
 Reason: Assertion failed: 
 Error : AssertionError - 
-Timestamp: 2025-09-17 11:39:21.852469
+Timestamp: 2025-09-17 11:40:38.553517
 
 Status: FAILED!
 Check: 2
 Test: Add the `html` tag to the *template.html* file
 Reason: Assertion failed: The html element does not exist
 Error : AssertionError - The html element does not exist
-Timestamp: 2025-09-17 11:39:21.853451
+Timestamp: 2025-09-17 11:40:38.554549
 
 Status: PASSED!
 Check: 3
 Test: Add the `head` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-17 11:39:21.854210
+Timestamp: 2025-09-17 11:40:38.555307
 
 Status: PASSED!
 Check: 4
 Test: Add the `title` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-17 11:39:21.854829
+Timestamp: 2025-09-17 11:40:38.556024
 
 Status: PASSED!
 Check: 5
 Test: Add the `meta` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-17 11:39:21.855586
+Timestamp: 2025-09-17 11:40:38.556825
 
 Status: PASSED!
 Check: 6
 Test: Add the `body` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-17 11:39:21.856201
+Timestamp: 2025-09-17 11:40:38.557436
