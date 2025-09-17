@@ -2,27 +2,25 @@
 Status: FAILED!
 Check: 1
 Test: Update the comment with your name
-Reason: Assertion failed: No comment found
-Error : AssertionError - No comment found
-Timestamp: 2025-09-14 06:09:25.112779
+Reason: Assertion failed: Expected comment with "Student Name: firstname lastname" not found
+Error : AssertionError - Expected comment with "Student Name: firstname lastname" not found
+Timestamp: 2025-09-17 04:51:47.411494
 
 Status: FAILED!
 Check: 1
 Test: Update the comment with the file name
-Reason: Assertion failed: No comment found
-Error : AssertionError - No comment found
-Timestamp: 2025-09-14 06:09:25.113622
+Reason: Assertion failed: Expected comment with "File Name: index.html" not found
+Error : AssertionError - Expected comment with "File Name: index.html" not found
+Timestamp: 2025-09-17 04:51:47.412802
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Update the comment with the current date
-Reason: Assertion failed: No comment found
-Error : AssertionError - No comment found
-Timestamp: 2025-09-14 06:09:25.114317
+Reason: None
+Timestamp: 2025-09-17 04:51:47.414113
 
-Status: FAILED!
+Status: PASSED!
 Check: 2
 Test: Add text to the title element
-Reason: Assertion failed: Expected title text is "CH 2 Extend Your Knowledge"
-Error : AssertionError - Expected title text is "CH 2 Extend Your Knowledge"
-Timestamp: 2025-09-14 06:09:25.114966
+Reason: None
+Timestamp: 2025-09-17 04:51:47.415297
