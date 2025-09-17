@@ -1,0 +1,24 @@
+
+Status: PASSED!
+Check: 1
+Test: Nest a `header` element inside the `body`
+Reason: None
+Timestamp: 2025-09-17 07:04:12.515656
+
+Status: PASSED!
+Check: 2
+Test: Nest a `nav` element inside the `body`
+Reason: None
+Timestamp: 2025-09-17 07:04:12.516397
+
+Status: PASSED!
+Check: 3
+Test: Nest a `main` element inside the `body`
+Reason: None
+Timestamp: 2025-09-17 07:04:12.517068
+
+Status: PASSED!
+Check: 4
+Test: Nest a `footer` element inside the `body`
+Reason: None
+Timestamp: 2025-09-17 07:04:12.517876
