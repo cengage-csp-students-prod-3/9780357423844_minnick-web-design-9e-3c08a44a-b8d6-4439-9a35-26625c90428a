@@ -1,0 +1,7 @@
+
+Status: FAILED!
+Check: 1
+Test: Add the `lang` attribute to the starting `html` tag and specify the language as **English**
+Reason: Assertion failed: No html tag found in the file
+Error : AssertionError - No html tag found in the file
+Timestamp: 2025-09-18 03:33:39.849374
