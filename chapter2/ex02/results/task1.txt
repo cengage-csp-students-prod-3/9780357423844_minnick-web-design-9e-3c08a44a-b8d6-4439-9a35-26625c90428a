@@ -1,38 +1,36 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Add the `html` tag to the *template.html* file
-Reason: Assertion failed: Expected one html tag in the file, found 0
-Error : AssertionError - Expected one html tag in the file, found 0
-Timestamp: 2025-09-18 03:29:36.877628
+Reason: None
+Timestamp: 2025-09-22 09:59:02.299863
 
 Status: PASSED!
 Check: 2
 Test: Add the `head` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-18 03:29:36.878762
+Timestamp: 2025-09-22 09:59:02.300611
 
 Status: PASSED!
 Check: 3
 Test: Add the `title` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-18 03:29:36.879845
+Timestamp: 2025-09-22 09:59:02.301282
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Add the `meta` tag to the *template.html* file
-Reason: Assertion failed: Expected one meta tag in the file, found 4
-Error : AssertionError - Expected one meta tag in the file, found 4
-Timestamp: 2025-09-18 03:29:36.880781
+Reason: None
+Timestamp: 2025-09-22 09:59:02.302014
 
 Status: PASSED!
 Check: 5
 Test: Add the `body` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-18 03:29:36.881759
+Timestamp: 2025-09-22 09:59:02.302660
 
 Status: PASSED!
 Check: 6
 Test: Add the `<!DOCTYPE html>` tag to the *template.html* file
 Reason: None
-Timestamp: 2025-09-18 03:29:36.882988
+Timestamp: 2025-09-22 09:59:02.303497
