@@ -2,6 +2,6 @@
 Status: FAILED!
 Check: 1
 Test: Add the `lang` attribute to the starting `html` tag and specify the language as **English**
-Reason: Assertion failed: Expected lang attribute value of 'en' in the html tag, found None
-Error : AssertionError - Expected lang attribute value of 'en' in the html tag, found None
-Timestamp: 2025-09-22 10:00:45.247037
+Reason: Assertion failed: No html tag found in the file
+Error : AssertionError - No html tag found in the file
+Timestamp: 2025-09-22 10:05:15.148817
