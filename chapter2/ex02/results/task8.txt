@@ -3,44 +3,40 @@ Status: PASSED!
 Check: 1
 Test: Nest the paragraph element within the nav element
 Reason: None
-Timestamp: 2025-09-22 10:08:46.507793
+Timestamp: 2025-09-22 10:40:45.653942
 
 Status: PASSED!
 Check: 2
 Test: Add the content: Home &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
 Reason: None
-Timestamp: 2025-09-22 10:08:46.508604
+Timestamp: 2025-09-22 10:40:45.654794
 
-Status: FAILED!
+Status: PASSED!
 Check: 3
 Test: Add the content: About Us &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
-Reason: Assertion failed: p element does not have the correct content, About Us &nbsp; &#9672; &nbsp;
-Error : AssertionError - p element does not have the correct content, About Us &nbsp; &#9672; &nbsp;
-Timestamp: 2025-09-22 10:08:46.509291
+Reason: None
+Timestamp: 2025-09-22 10:40:45.655552
 
-Status: FAILED!
+Status: PASSED!
 Check: 4
 Test: Add the content: Partnership &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
-Reason: Assertion failed: p element does not have the correct content, Partnership &nbsp; &#9672; &nbsp;
-Error : AssertionError - p element does not have the correct content, Partnership &nbsp; &#9672; &nbsp;
-Timestamp: 2025-09-22 10:08:46.510232
+Reason: None
+Timestamp: 2025-09-22 10:40:45.656396
 
-Status: FAILED!
+Status: PASSED!
 Check: 5
 Test: Add the content: Gallery &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
-Reason: Assertion failed: p element does not have the correct content, Gallery &nbsp; &#9672; &nbsp;
-Error : AssertionError - p element does not have the correct content, Gallery &nbsp; &#9672; &nbsp;
-Timestamp: 2025-09-22 10:08:46.510961
+Reason: None
+Timestamp: 2025-09-22 10:40:45.657137
 
-Status: FAILED!
+Status: PASSED!
 Check: 6
 Test: Add the content: FAQs &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
-Reason: Assertion failed: p element does not have the correct content, FAQs &nbsp; &#9672; &nbsp;
-Error : AssertionError - p element does not have the correct content, FAQs &nbsp; &#9672; &nbsp;
-Timestamp: 2025-09-22 10:08:46.511682
+Reason: None
+Timestamp: 2025-09-22 10:40:45.657888
 
 Status: PASSED!
 Check: 7
 Test: Add the content: Contact to the paragraph element within the nav element
 Reason: None
-Timestamp: 2025-09-22 10:08:46.512364
+Timestamp: 2025-09-22 10:40:45.658613
