@@ -1,0 +1,46 @@
+
+Status: PASSED!
+Check: 1
+Test: Nest the paragraph element within the nav element
+Reason: None
+Timestamp: 2025-09-22 10:08:46.507793
+
+Status: PASSED!
+Check: 2
+Test: Add the content: Home &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
+Reason: None
+Timestamp: 2025-09-22 10:08:46.508604
+
+Status: FAILED!
+Check: 3
+Test: Add the content: About Us &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
+Reason: Assertion failed: p element does not have the correct content, About Us &nbsp; &#9672; &nbsp;
+Error : AssertionError - p element does not have the correct content, About Us &nbsp; &#9672; &nbsp;
+Timestamp: 2025-09-22 10:08:46.509291
+
+Status: FAILED!
+Check: 4
+Test: Add the content: Partnership &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
+Reason: Assertion failed: p element does not have the correct content, Partnership &nbsp; &#9672; &nbsp;
+Error : AssertionError - p element does not have the correct content, Partnership &nbsp; &#9672; &nbsp;
+Timestamp: 2025-09-22 10:08:46.510232
+
+Status: FAILED!
+Check: 5
+Test: Add the content: Gallery &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
+Reason: Assertion failed: p element does not have the correct content, Gallery &nbsp; &#9672; &nbsp;
+Error : AssertionError - p element does not have the correct content, Gallery &nbsp; &#9672; &nbsp;
+Timestamp: 2025-09-22 10:08:46.510961
+
+Status: FAILED!
+Check: 6
+Test: Add the content: FAQs &nbsp; &#9672; &nbsp; to the paragraph element within the nav element
+Reason: Assertion failed: p element does not have the correct content, FAQs &nbsp; &#9672; &nbsp;
+Error : AssertionError - p element does not have the correct content, FAQs &nbsp; &#9672; &nbsp;
+Timestamp: 2025-09-22 10:08:46.511682
+
+Status: PASSED!
+Check: 7
+Test: Add the content: Contact to the paragraph element within the nav element
+Reason: None
+Timestamp: 2025-09-22 10:08:46.512364
