@@ -1,0 +1,13 @@
+
+Status: PASSED!
+Check: 1
+Test: Nest the paragraph elements within the footer element
+Reason: None
+Timestamp: 2025-09-22 10:09:01.325022
+
+Status: FAILED!
+Check: 2
+Test: Nest the paragraph elements within the footer element
+Reason: Assertion failed: Second p element does not have the correct content
+Error : AssertionError - Second p element does not have the correct content
+Timestamp: 2025-09-22 10:09:01.325842
