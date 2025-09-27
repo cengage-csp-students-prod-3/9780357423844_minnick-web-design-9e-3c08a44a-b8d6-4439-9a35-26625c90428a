@@ -1,6 +1,2 @@
-
-Status: PASSED!
-Check: 1
-Test: Fix the issue with`DOCTYPE` tag.
-Reason: None
-Timestamp: 2025-09-27 03:47:38.767910
+PASSED! 
+This is a manually graded assignment, the instructor will decide the final grade..
