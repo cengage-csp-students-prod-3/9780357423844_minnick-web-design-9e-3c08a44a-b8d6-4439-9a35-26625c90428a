@@ -1,0 +1,26 @@
+
+Status: FAILED!
+Check: 1
+Test: Correct the issues with the `title` and `meta` tags.
+Reason: Assertion failed: 'CH 1 Analyze, Correct, Improve' != 'Chapter 1, Analyze'
+- CH 1 Analyze, Correct, Improve
++ Chapter 1, Analyze
+
+Error : AssertionError - 'CH 1 Analyze, Correct, Improve' != 'Chapter 1, Analyze'
+- CH 1 Analyze, Correct, Improve
++ Chapter 1, Analyze
+
+Timestamp: 2025-09-27 03:47:40.197296
+
+Status: FAILED!
+Check: 2
+Test: Add the `charset` attribute to the `meta` tag and specify the character set as 'utf-8' as follows: `<meta charset="utf-8">`
+Reason: Assertion failed: 'UTF-8' != 'utf-8'
+Error : AssertionError - 'UTF-8' != 'utf-8'
+Timestamp: 2025-09-27 03:47:40.198050
+
+Status: PASSED!
+Check: 3
+Test: Ensure there is only one `meta` tag in the `head` tag.
+Reason: None
+Timestamp: 2025-09-27 03:47:40.198638
