@@ -1,6 +1,3 @@
 ## Task 17
-Open a terminal to move the images provided in the */resources* folder to the */images* folder inside your */rescue* directory using the command below: 
 
-```bash
-mv ./images/* ./rescue/images/
-```
+Move the images provided in the _/resources_ folder to the _/rescue/images_ folder by either drag and drop or copy and paste.

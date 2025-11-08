@@ -1,6 +1,3 @@
 ## Task 15
-Open a terminal to move the images provided in the */resources* folder to the */images* folder inside your */music* directory using the command below: 
 
-```bash
-mv ./images/* ./music/images/
-```
+Move the images provided in the _/resources_ folder to the _/music/images_ folder by either drag and drop or copy and paste.

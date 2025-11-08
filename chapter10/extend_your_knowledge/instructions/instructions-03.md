@@ -1,1 +1,1 @@
-**Task #03:** {REMOVED GitHub #12}Link the JQuery CDN to the *index.html* file
+**Task #03:** Link the JQuery CDN to the *index.html* file

@@ -1,13 +1,10 @@
 <!--practice-->
+
 You have already created a responsive design website for a dog grooming business, but now need to add a video to the website and make it accessible.
 
 ## Perform the following tasks:
 
-1. Open your _groom_ folder and create a new subfolder named **media**. Move the provided media files from the _resources_ folder into your _groom/media_ folder by typing the following command into the terminal:
-
-```
-mv ./resources/* ./groom/media/
-```
+1. Open your _groom_ folder and create a new subfolder named **media**. Move the provided media files from the _resources_ folder into your _groom/media_ folder by either drag and drop or copy and paste.
 
 2. Open the _index.html_ file and add a `video` element at the end of the `welcome` `div`. Include the controls attribute and a poster attribute that uses the image file of your choice.
 
@@ -35,6 +32,7 @@ mv ./resources/* ./groom/media/
 11. Check your spelling. Validate all HTML and CSS files and correct any errors.
 
 > Identify the steps you would take to accommodate legacy browsers if you included a Flash video on the Dog Grooming website.
+
 <!--
 {
     "CopyExercise": {

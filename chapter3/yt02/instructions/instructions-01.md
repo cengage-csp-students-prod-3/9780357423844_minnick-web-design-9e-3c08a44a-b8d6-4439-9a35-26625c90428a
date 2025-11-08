@@ -2,11 +2,7 @@
 
 1. Review the image file properties to ensure that the image file sizes are not too large. If any file size is greater than 1 MB, use an online image file compression tool to reduce the file size.
 
-2. Copy or move the image files from the _/resources_ folder to the _/groom/images/_ folder using the following command:
-
-```bash
-mv ./resources/* ./groom/images/
-```
+2. Copy or move the image files from the _/resources_ folder to the _/groom/images/_ folder by either drag and drop or copy and paste.
 
 3. Add the _dog-banner.jpg_ image file within the `header` element, below the heading elements, on your home page and your template file. Be sure to include all necessary attributes within the `img` element; `src`, `alt`, `height`, and `width`.
 
