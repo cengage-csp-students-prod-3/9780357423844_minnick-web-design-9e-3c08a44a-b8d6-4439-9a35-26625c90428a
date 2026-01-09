@@ -1,4 +1,4 @@
-ARG VARIANT="4-noble"
+ARG VARIANT="latest"
 FROM mcr.microsoft.com/devcontainers/universal:${VARIANT}
 
 USER root
